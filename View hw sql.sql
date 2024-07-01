@@ -13,8 +13,8 @@ FROM TEACHER
 /*
 CREATE VIEW TeacherSalaryDetails AS
 SELECT T.Id AS TeacherID, T.Name, P.Name AS PositionName, (T.Salary + T.Rise) AS TotalSalary
-FROM TEACHER T
-JOIN POST P ON T.IdPost = P.Id
+FROM TEACHER AS T
+JOIN POST AS P ON T.IdPost = P.Id
 */
 
 --4
